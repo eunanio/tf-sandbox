@@ -28,7 +28,3 @@ locals {
     ManagedBy   = "Terraform"
   }
 }
-
-module "example" {
-  source = "../../../modules/example"
-}

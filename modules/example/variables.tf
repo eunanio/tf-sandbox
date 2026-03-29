@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "project_name" {
   description = "Short name for the project. Used as a prefix in resource names and tags."
   type        = string
-  default     = "app"
+  default     = "app1"
 }
 
 variable "environment" {
